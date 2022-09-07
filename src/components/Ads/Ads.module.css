@@ -1,0 +1,7 @@
+.adsList {
+    padding: 6rem 12%;
+}
+
+.adsList *+* {
+    margin-top: 1rem;
+}
