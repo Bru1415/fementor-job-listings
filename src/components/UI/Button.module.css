@@ -1,0 +1,53 @@
+.button {
+border-radius: 5px;
+padding: 8px 10px;
+border: none;
+font-weight: bold;
+cursor:pointer;
+caret-color: white;
+}
+
+
+.button.pill {
+    border-radius: 18px;
+    color: white;
+    margin-inline: 4px;
+    cursor: inherit;
+    padding: 5px 7px;
+
+}
+
+.new {
+    background-color: #5DA8A3;
+    text-transform: uppercase;
+}
+
+.featured {
+    background-color: #101010;
+    color: white;
+    text-transform: uppercase;
+}
+
+.profile {
+    color: #5DA8A3;
+    background-color: hsl(185, 58%, 96%);
+    margin-inline: 1rem;
+    font-size: 0.9em;
+}
+
+button.profile:hover {
+background-color: #5DA8A3;
+color: white;
+}
+
+.button.profile:active {
+    transform: scale(0.9);
+}
+
+/* .button.button.pill:hover {
+    transform: scale(1.2);
+}
+
+.button:active {
+    transform: scale(0.9);
+} */

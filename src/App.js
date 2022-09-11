@@ -1,10 +1,12 @@
 import "./App.css";
-import Ads from "./components/Ads/Ads";
+import AdvList from "./components/AdvList/AdvList";
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <Ads></Ads>
+      <AdvList></AdvList>
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.adsList {
+    padding: 6rem 12%;
+}
+
+.adsList > * + * {
+    margin-top: 1rem;
+}
+
+.featuredAd {
+    border-left: 4px solid #5DA8A3;
+}

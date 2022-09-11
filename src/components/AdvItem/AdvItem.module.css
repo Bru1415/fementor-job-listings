@@ -1,0 +1,54 @@
+.company {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: min(3vw, 1em);
+    margin: 1rem;
+}
+
+.company a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+.company img {
+    position: absolute;
+    top: -100%;
+}
+
+.companyName span {
+color: #5DA8A3;
+font-weight: bold;
+font-size: 1.1em;
+margin-right: 13px;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:14px;
+}
+
+.demands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.timeAndPlace span {
+    color: grey;
+
+}
+
+@media (min-width: 65em) {
+    .company img {
+        position: relative;
+    }  
+}
