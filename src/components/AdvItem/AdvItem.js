@@ -4,7 +4,7 @@ import classes from "./AdvItem.module.css";
 import React, { useRef, useState, useCallback, useEffect } from "react";
 
 const AdvItem = (props) => {
-  const cssClasses = [];
+  const cssClasses = ['advItem'];
   if (props.featured) {
     cssClasses.push("featured");
   }
@@ -22,7 +22,9 @@ const AdvItem = (props) => {
           <a href="">Senior Frontend Developer</a>
           <div className={classes.timeAndPlace}>
             <span>1d ago</span>
+            <span>{'\u00B7'}</span>
             <span>Full Time</span>
+            <span>{'\u00B7'}</span>
             <span>USA only</span>
           </div>
         </div>
@@ -30,6 +32,8 @@ const AdvItem = (props) => {
       <div className={classes.demands}>
         <Button cssLook={["profile"]}>Fullstack</Button>
         <Button cssLook={["profile"]}>Frontend</Button>
+        <Button cssLook={["profile"]}>HTML</Button>
+        <Button cssLook={["profile"]}>HTML</Button>
         <Button cssLook={["profile"]}>HTML</Button>
       </div>
     </Card>

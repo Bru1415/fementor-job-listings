@@ -2,9 +2,12 @@
 border-radius: 5px;
 padding: 8px 10px;
 border: none;
+font-family: 'League Spartan', sans-serif;
+font-size: 0.9em;
 font-weight: bold;
 cursor:pointer;
 caret-color: white;
+
 }
 
 
@@ -13,7 +16,7 @@ caret-color: white;
     color: white;
     margin-inline: 4px;
     cursor: inherit;
-    padding: 5px 7px;
+    padding-bottom: 6px;
 
 }
 
@@ -31,8 +34,7 @@ caret-color: white;
 .profile {
     color: #5DA8A3;
     background-color: hsl(185, 58%, 96%);
-    margin-inline: 1rem;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 button.profile:hover {
