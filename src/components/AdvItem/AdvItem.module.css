@@ -28,7 +28,7 @@
 }
 
 .companyName span {
-  color: #5da8a3;
+  color: hsl(var(--secondary-color, 176 30% 51%));
   font-weight: bold;
   font-size: 1.1em;
   margin-right: 13px;

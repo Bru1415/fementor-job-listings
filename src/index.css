@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+
+:root {
+  --button-rounding: 4px;
+  --primary-color: 185 58% 96%;
+  --secondary-color: 176 30% 51%;
+
+}
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 body {
@@ -16,11 +23,10 @@ body {
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 
-  background-color: hsl(185, 58%, 96%);
-
+  background-color: hsl(var(--primary-color, 185 58% 96%));
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

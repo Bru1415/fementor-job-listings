@@ -3,7 +3,7 @@ import classes from './Card.module.css';
 
 const Card = props => {
     const customCssClasses = props.className ? props.className.map(item => classes[item]) : '';
-    const cssClasses = `${classes.card} ${customCssClasses.join(' ')}`
+    const cssClasses = `${classes.card} ${customCssClasses ? customCssClasses.join(' ') : ''}`
     return <div className={cssClasses}>{props.children}</div>
 }
 
