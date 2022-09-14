@@ -10,3 +10,8 @@
 .featuredAd {
     border-left: 4px solid #5DA8A3;
 }
+
+.emptyContent {
+    font-size: 2em;
+    font-weight: bolder;
+}

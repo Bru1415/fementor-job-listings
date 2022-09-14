@@ -14,12 +14,21 @@
   margin-bottom: -1rem;
 }
 
-.company a {
+
+.companyPosition {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: bold;
   color: black;
+  cursor: pointer;
+  z-index: 1;
+
 }
+
+.companyPosition:hover {
+  color: hsl(var(--secondary-color, 176 30% 51%));
+}
+
 
 .company img {
   position: absolute;
@@ -33,6 +42,7 @@
   font-size: 1.1em;
   margin-right: 13px;
 }
+
 
 .info {
   display: flex;
@@ -64,10 +74,18 @@
   color: grey;
 }
 
+
+/* hover does not work her */
+.timeAndPlace span:hover {
+  color: aqua;
+}
+
 .timeAndPlace span:nth-of-type(2n) {
   transform: scale(1.4);
   font-weight: bold;
 }
+
+
 
 
 @media (min-width: 65em) {

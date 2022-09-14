@@ -9,9 +9,18 @@
 }
 
 .App-header {
-  background: url(./images/bg-header-desktop.svg) bottom / cover;
+  background: url(/public/images/bg-header-mobile.svg) bottom / cover #5DA5A4;
   min-height: 17vh;
 
+}
+
+
+@media (min-width: 65em) {
+  .App-header {
+    background: url(/public/images/bg-header-desktop.svg) bottom / cover;
+  
+  }
+  
 }
 
 

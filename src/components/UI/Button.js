@@ -4,7 +4,12 @@ const Button = props => {
     const customCssClasses = props.cssLook.map((item) => classes[item]);
     const classNames = `${classes.button} ${props.cssLook ? customCssClasses.join(' ') : ''}`;
 
-    return <button className={classNames} type={props.type}>{props.children}</button>
+    // const addFilter = () => {
+    //     // event.preventDefault();
+    //     props.onAddFilter(props.children);
+    // } 
+
+    return <button className={classNames} onClick={props.onAddFilter} type={props.type}>{props.children}</button>
 }
 
 export default Button;
