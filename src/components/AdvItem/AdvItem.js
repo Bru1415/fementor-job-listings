@@ -24,7 +24,8 @@ const AdvItem = (props) => {
   return (
     <Card className={cssClasses}>
       <div className={classes.company}>
-        <img src={props.advItemData.logo.slice(1)}></img>
+        {/* <img src={props.advItemData.logo.slice(1)}></img> */}
+        <img src={props.advItemData.logo}></img>
         <div className={classes.info}>
           <div className={classes.companyName}>
             <span>{props.advItemData.company}</span>
