@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/fementor-job-listings/static/css/main.a5311bdd.css",
-    "main.js": "/fementor-job-listings/static/js/main.5eb8bccd.js",
+    "main.js": "/fementor-job-listings/static/js/main.35892c42.js",
     "static/js/787.3f6fae7a.chunk.js": "/fementor-job-listings/static/js/787.3f6fae7a.chunk.js",
     "static/media/bg-header-desktop.svg": "/fementor-job-listings/static/media/bg-header-desktop.41d3c877f7bedefbf176.svg",
     "index.html": "/fementor-job-listings/index.html",
     "static/media/bg-header-mobile.svg": "/fementor-job-listings/static/media/bg-header-mobile.1851897731ba22e55e82.svg",
     "main.a5311bdd.css.map": "/fementor-job-listings/static/css/main.a5311bdd.css.map",
-    "main.5eb8bccd.js.map": "/fementor-job-listings/static/js/main.5eb8bccd.js.map",
+    "main.35892c42.js.map": "/fementor-job-listings/static/js/main.35892c42.js.map",
     "787.3f6fae7a.chunk.js.map": "/fementor-job-listings/static/js/787.3f6fae7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5311bdd.css",
-    "static/js/main.5eb8bccd.js"
+    "static/js/main.35892c42.js"
   ]
 }
