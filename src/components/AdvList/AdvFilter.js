@@ -12,7 +12,7 @@ const AdvFilter = (props) => {
     <div key={filterItem + Math.random().toFixed(3)}>
       <label>{filterItem}</label>
       <button onClick={removeFilterHandler.bind(null, filterItem)}>
-        <img src="/images/icon-remove.svg"></img>
+        <img src="./images/icon-remove.svg"></img>
       </button>
     </div>
   ));
